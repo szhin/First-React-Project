@@ -1,13 +1,15 @@
-/* video {
+video {
    object-fit: cover;
    width: 100%;
    height: 100%;
+   background-position: bottom;
+   background-repeat: no-repeat;
    position: fixed;
    z-index: -1;
-} */
+}
 
 .hero-container {
-   background: url('/public/images/img-home.jpg') center center/cover no-repeat;
+   /* background: url('/public/images/img-home.jpg') center center/cover no-repeat; */
    height: 100vh;
    width: 100%;
    display: flex;
